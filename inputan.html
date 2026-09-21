@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>PENDAFTARAN LOMBA</title>
+</head>
+
+<body>
+
+    <h2>Registrasi Pendaftaran Lomba</h2>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+
+        <tr>
+            <td>Nama</td>
+            <td>
+                <input type="text" id="nama" name="nama">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Sandi</td>
+            <td>
+                <input type="password" id="password" name="password">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>
+                <input type="radio" id="laki" name="gender" value="Laki-laki">
+                <label for="laki">Laki-laki</label>
+
+                <input type="radio" id="perempuan" name="gender" value="Perempuan">
+                <label for="perempuan">Perempuan</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Hobi</td>
+            <td>
+                <input type="checkbox" id="lari" name="hobi" value="Lari">
+                <label for="lari">Lari</label>
+
+                <input type="checkbox" id="game" name="hobi" value="Game">
+                <label for="game">Game</label>
+
+                <input type="checkbox" id="musik" name="hobi" value="Musik">
+                <label for="musik">Musik</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Asal Sekolah</td>
+            <td>
+                <select id="sekolah" name="sekolah">
+                    <option value="">- - Asal Sekolah - -</option>
+                    <option value="smkn1">SMK Negeri 1 Probolinggo</option>
+                    <option value="smkn2">SMK Negeri 2 Probolinggo</option>
+                    <option value="smkn3">SMK Negeri 3 Probolinggo</option>
+                    <option value="smkn4">SMK Negeri 4 Probolinggo</option>
+                    <option value="sman1">SMA Negeri 1 Probolinggo</option>
+                    <option value="sman2">SMA Negeri 2 Probolinggo</option>
+                    <option value="sman3">SMA Negeri 3 Probolinggo</option>
+                    <option value="sman4">SMA Negeri 4 Probolinggo</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Alamat Rumah</td>
+            <td>
+                <textarea 
+                    id="alamat" 
+                    name="alamat" 
+                    rows="3" 
+                    cols="30"
+                    placeholder="Masukkan alamat Anda..."></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Kirim</button>
+                <button type="reset">Reset</button>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
